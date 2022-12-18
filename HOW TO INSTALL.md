@@ -1,7 +1,7 @@
 # Linux Mint Debian Edition (liberated from SystemD)
 
 ### Summary
-Using a simple algorithm, you can add the LMDE repos to a Devuan base installation, install the necessary keyring and files for LMDE and boot into Linux Mint (either cinnamon, mate or xfce)
+Using a simple algorithm, you can add the LMDE repos to a Devuan base installation, install the necessary keyring and files for LMDE and boot into Linux Mint (either cinnamon, mate or xfce). BEAR IN MIND that the installation is incomplete and some GUI elements do not work because of their systemd dependencies.
 #### Justification
 LMDE uses SystemD, which is inherently NOT an init system, but a program suffering from software control creep (like Microsoft). Many Like Linux Mint, but hate SystemD. This guide will explain how to liberate Linux Mint for the anti-SysD users.
 #### Steps to create
